@@ -1,18 +1,17 @@
-﻿namespace HCL_Assessment
+﻿namespace HCL_Assesment;
+
+public delegate double BillingDelegate(double amount);
+
+public abstract class Patient
 {
-    public delegate double BillingDelegate(double amount);
+    public int Id { get; set; }
+    public string Name { get; set; }
 
-    public abstract class Patient
+    public Patient(int id, string name)
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-
-        public Patient(int id, string name)
-        {
-            Id = id;
-            Name = name;
-        }
-
-        public abstract double CalculateBill();
+        Id = id;
+        Name = name;
     }
+
+    public abstract double CalculateBill();
 }
