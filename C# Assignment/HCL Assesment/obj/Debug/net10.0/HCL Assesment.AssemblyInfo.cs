@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HCL Assesment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a7768c612179421356d6721b2126fe64d5855fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df734481373bf68a812d9c7296a2c582ba01cc1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("HCL Assesment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HCL Assesment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
